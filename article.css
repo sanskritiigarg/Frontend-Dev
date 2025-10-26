@@ -1,0 +1,51 @@
+/*body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6; /* improves readability */
+    max-width: 800px; /* limit width for easier reading */
+    margin: 20px auto;
+    padding: 0 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header*/
+header h1 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+header h3 {
+    text-align: center;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Article para */
+article p {
+    margin-bottom: 20px; /* consistent spacing between paragraphs */
+}
+
+article p::first-letter {
+    font-size: 2em; 
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+article p::first-line {
+    font-weight: bold;
+}
+
+mark {
+    background-color: #ffd54f; /* custom yellow highlight */
+    color: #000;
+}
+
+blockquote {
+    border-left: 5px solid #3498db; /* left border for emphasis */
+    background-color: #eaf4fc; /* light background for emphasis */
+    padding: 10px 20px;
+    margin: 20px 0;
+    font-style: italic;
+    color: #2c3e50;
+}
